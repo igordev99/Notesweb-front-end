@@ -9,12 +9,14 @@ import{ Button } from '../../components/Button';
 
 import { Container, Form, Background } from './styles';
 
-const navigate = useNavigate();
+
 
 export function SignUp(){
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
+  const navigate = useNavigate();
   
     function handleSingup(){
         if(!name || !email || !password){
