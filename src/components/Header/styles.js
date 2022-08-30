@@ -16,6 +16,8 @@ export const Container = styled.header`
   justify-content: space-between;
 
   padding: 0 80px;
+
+ 
 `;
 
 export const Profile = styled(Link)`
@@ -44,6 +46,8 @@ export const Profile = styled(Link)`
     font-size: 18px;
     color: ${({ theme }) => theme.COLORS.WHITE};
   }
+
+  
 `;
 
 export const Logout = styled.button `
